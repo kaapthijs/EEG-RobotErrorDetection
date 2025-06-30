@@ -21,15 +21,16 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 │   │   ├── robot_experiment_log.csv
 │   │   ├── run_exp.py
 │   │   └── saved_positions.txt
-│   └── Task3/ (Grid)
-│       ├── participants/
-│       ├── buckets.txt
-│       └── run_exp.py
-├── run_full_experiment.py
-├── saved_positions.txt
-├── send_continious_trigger.py
-├── simulate.py
+│   ├── Task3/ (Grid)
+│   │   ├── participants/
+│   │   ├── buckets.txt
+│   │   └── run_exp.py
+│   ├── run_full_experiment.py
+│   ├── saved_positions.txt
+│   ├── send_continious_trigger.py
+│   └── simulate.py
 ├── README.md
+├── requirements.txt
 └── run_classification.py
 ```
 
@@ -53,11 +54,11 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 
     * `buckets.txt`: Files containing the robot's saved position coordinates for Grid task.
 
-* **`run_full_experiment.py`** (in `ROBOT/Task3/`): The main script to run all predefined robot experiments sequentially.
+  * **`run_full_experiment.py`** (in `ROBOT/Task3/`): The main script to run all predefined robot experiments sequentially.
 
-* **`send_continious_trigger.py`** (in `ROBOT/Task3/`): A script designed to send a continuous timestamp trigger. This is crucial for merging data from the robot's movements with data acquired from the Unicorn EEG software.
+  * **`send_continious_trigger.py`** (in `ROBOT/Task3/`): A script designed to send a continuous timestamp trigger. This is crucial for merging data from the robot's movements with data acquired from the Unicorn EEG software.
 
-* **`simulate.py`**: This script allows you to determine and test the robot's position coordinates. These coordinates can then be used to populate the `saved_positions.txt` files for each task.
+  * **`simulate.py`**: This script allows you to determine and test the robot's position coordinates. These coordinates can then be used to populate the `saved_positions.txt` files for each task.
 
 * **`run_classification.py`**: This script takes the data from the `DATA/` directory and performs the classification analysis.
 
