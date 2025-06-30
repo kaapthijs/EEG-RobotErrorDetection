@@ -11,8 +11,8 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 ├── ROBOT/
 │   ├── Bucket generation/
 │   │   ├── bucket_gen.py
-│   │   ├── paths_output.txt
-│   │   └── experiment_data/
+│   │   └── paths_output.txt
+│   ├── experiment_data/
 │   ├── Task1/ (Reaching)
 │   │   ├── robot_experiment_log.csv
 │   │   ├── run_exp.py
@@ -20,7 +20,7 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 │   ├── Task2/ (Block)
 │   │   ├── robot_experiment_log.csv
 │   │   ├── run_exp.py
-│   │   ├── saved_positions.txt
+│   │   └── saved_positions.txt
 │   └── Task3/ (Grid)
 │       ├── participants/
 │       ├── buckets.txt
@@ -40,6 +40,8 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 * **`ROBOT/`**: This directory contains all the Python scripts and related files necessary for executing the robot experiments.
 
   * **`Bucket generation/`**: Scripts and data related to generating experiment paths (buckets) for Task 3 (Grid).
+
+  * **`experiment_data/`**: Output folder for data.
 
   * **`Task1/`**, **`Task2/`**, **`Task3/`**: Each of these subdirectories corresponds to a specific experimental task. (Reaching, Block, Grid, respectively)
 
@@ -77,7 +79,7 @@ This repository contains the code and data for the EEG-Robot Error Detection pro
 
 ### Classification
 
-* **`run_classification.py`**: Once the data is collected and processed (and placed in the `DATA/` directory), execute this script to perform the classification analysis.
+* **`run_classification.py`**: Execute this script to perform the classification analysis.
 
 ## Requirements
 
