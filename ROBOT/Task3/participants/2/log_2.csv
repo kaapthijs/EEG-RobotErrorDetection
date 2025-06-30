@@ -1,5 +1,0 @@
-Timestamp,Trial,Current Position,Intended Position,Correctness,Punishment
-1744897018.4148424,1,"(2, 1)","(1, 1)",Correct,No Punishment
-1744897020.1869135,1,"(2, 2)","(2, 1)",Incorrect,No Punishment
-1744897022.291857,1,"(1, 2)","(2, 2)",Incorrect,No Punishment
-1744897024.087959,1,"(1, 3)","(1, 2)",Incorrect,No Punishment

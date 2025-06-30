@@ -32,7 +32,7 @@ CONFIG = {
     "gripper_ip": "172.16.0.2",  # Gripper IP address
     "error_probabilities": {
         "task1": 0.3,  # 30% error probability for task1
-        "task2": 0.3,  # 20% error probability for task2; willen we deze verhogen naar 30%? Nu hebben we ~10 error trials per keer.
+        "task2": 0.3,  # 30% error probability for task2
         "task3": 0.3   # 30% error probability for task3; 
     },
     "break_interval": 4.5,  # Number of minutes before a break

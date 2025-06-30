@@ -1,0 +1,11 @@
+panda-py
+pygame
+sounddevice
+numpy
+scipy
+scikit-learn
+imbalanced-learn
+matplotlib
+mne
+asrpy
+pandas
