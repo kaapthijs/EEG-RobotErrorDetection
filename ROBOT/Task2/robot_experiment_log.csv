@@ -1,0 +1,10 @@
+Timestamp,Trial,Direction,Action
+1745246421.9946609,1,left_to_right,correct
+1745246425.551731,2,right_to_left,correct
+1745246437.7690957,3,left_to_right,drop
+1745246441.3136218,4,right_to_left,correct
+1745246444.820699,5,left_to_right,correct
+1745246457.0494576,6,right_to_left,drop
+1745246460.593646,7,left_to_right,correct
+1745246464.135676,8,right_to_left,correct
+1745246467.7016215,9,left_to_right,correct

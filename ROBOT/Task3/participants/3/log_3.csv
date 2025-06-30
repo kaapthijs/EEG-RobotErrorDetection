@@ -1,0 +1,12 @@
+Timestamp,Trial,Current Position,Intended Position,Correctness,Punishment
+1744897069.5448506,1,"(1, 1)","(2, 1)",Incorrect,No Punishment
+1744897071.2868643,1,"(2, 1)","(1, 1)",Correct,No Punishment
+1744897073.3368359,1,"(1, 1)","(1, 2)",Correct,No Punishment
+1744897075.1158504,1,"(1, 2)","(2, 2)",Incorrect,No Punishment
+1744897077.1918209,1,"(2, 2)","(2, 1)",Incorrect,No Punishment
+1744897078.967807,1,"(2, 1)","(1, 1)",Correct,No Punishment
+1744897081.0228438,1,"(1, 1)","(1, 2)",Correct,No Punishment
+1744897082.941812,1,"(1, 2)","(1, 3)",Correct,No Punishment
+1744897089.5228388,2,"(1, 1)","(2, 1)",Incorrect,No Punishment
+1744897091.3367906,2,"(2, 1)","(1, 1)",Correct,No Punishment
+1744897093.114833,2,"(1, 1)","(2, 1)",Incorrect,No Punishment
